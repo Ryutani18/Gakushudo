@@ -1,0 +1,395 @@
+a {
+    text-decoration: none;
+}
+
+li {
+    list-style: none;
+}
+
+#first-view {
+    position: relative;
+    text-align: center;
+    width: 100%;
+    background: url(images/main.jpg);
+    background-size: 100%;
+    height: 250px;
+}
+
+#first-view .ttl_ver2 {
+    position: absolute;
+    top: 21px;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+    width: 60%;
+}
+
+#mid-header {
+    height: 80px;
+    margin: 0 auto;
+    background-color: #FFFD33;
+}
+
+#lets-make {
+    position: relative;
+    margin: 49px auto 0;
+    width: 80%;
+}
+
+#lets-make .pic_01 {
+    width: 100%;
+}
+
+#lets-make .txt_recipe {
+    position: absolute;
+    top: 1.5%;
+    left: 52%;
+    width: 40%;
+}
+
+#lets-make .frozen-time {
+    margin: 0 auto;
+    width: 80%;
+}
+
+#lets-make .frozen-time h2 {
+    margin-top: 57px;
+    text-align: center;
+    font-size: 32px;
+    color: #0699C3;
+}
+
+#lets-make .attention {
+    width: 80%;
+    margin: 40px auto 0;
+    padding: 0 0 29px 29px;
+    border: solid 2px #CCCCCC;
+}
+
+#lets-make .attention h3 {
+    text-align: left;
+}
+
+#lets-make .attention p {
+    text-align: left;
+}
+
+#arrange-recipe {
+    width: 80%;
+    margin: 99px auto 0;
+    text-align: center;
+}
+
+#arrange-recipe .subttl_02 {
+    text-align: center;
+    margin-bottom: 34px;
+}
+
+#arrange-recipe p {
+    font-size: 18px;
+    font-weight: bold;
+    color: #004E87;
+    text-align: center;
+}
+
+#arrange-recipe .pic_recipe {
+    margin-top: 30px;
+}
+
+#arrange-recipe .btn {
+    width: 360px;
+    height: 60px;
+    margin: 50px auto 0;
+    border: solid 2px rgb(6, 152, 193);
+}
+
+#arrange-recipe .btn a {
+    width: 360px;
+    height: 60px;
+    display: table-cell;
+    text-align: center;
+    vertical-align: middle;
+    font-size: 20px;
+    color: #008DB5;
+}
+
+#arrange-recipe .btn:hover {
+    opacity: 0.5;
+    transition-duration: 0.5s;
+}
+
+#line-up {
+    width: 80%;
+    margin: 83px auto 0;
+    text-align: center;
+}
+
+#line-up .subttl_03 {
+    margin-bottom: 48px;
+}
+
+#line-up .subttl_03 p {
+    font-size: 18px;
+    font-weight: bold;
+    color: #004E87;
+}
+
+#line-up .beverages {
+    margin-bottom: 71px;
+}
+
+#line-up .beverages h3 {
+    color: black;
+}
+
+#line-up .beverages p {
+    color: black;
+}
+
+#line-up .image {
+    width: 50%;
+    height: calc(100vh/1.9);
+    float: left;
+}
+
+#line-up .image img {
+    width: 80%;
+}
+
+#line-up .text h3 {
+    color: #004E87;
+}
+
+#line-up .btn {
+    width: 360px;
+    height: 60px;
+    margin: 50px auto 0;
+    border: solid 2px rgb(6, 152, 193);
+}
+
+#line-up .btn a {
+    width: 360px;
+    height: 60px;
+    display: table-cell;
+    text-align: center;
+    vertical-align: middle;
+    font-size: 20px;
+    color: #008DB5;
+}
+
+#line-up .btn:hover {
+    opacity: 0.5;
+    transition-duration: 0.5s;
+}
+
+#everyone {
+    width: 80%;
+    margin: 100px auto 0;
+    text-align: center;
+}
+
+#everyone p {
+    font-weight: bold;
+    color: #004E87;
+}
+
+#everyone h3 {
+    color: #004E87;
+}
+
+#everyone .space {
+    margin-top: 100px;
+}
+
+#everyone .content {
+    width: 245px;
+    height: 28px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+#everyone span.content {
+    background-color: yellow;
+}
+
+#everyone .icon {
+    width: 80px;
+    height: 80px;
+}
+
+#everyone .icon:hover {
+    opacity: 0.5;
+    transition-duration: 0.5s;
+}
+
+#everyone .btn {
+    width: 360px;
+    height: 60px;
+    margin: 50px auto 0;
+    border: solid 2px rgb(6, 152, 193);
+}
+
+#everyone .btn a {
+    width: 360px;
+    height: 60px;
+    display: table-cell;
+    text-align: center;
+    vertical-align: middle;
+    font-size: 20px;
+    color: #008DB5;
+}
+
+#everyone .btn:hover {
+    opacity: 0.5;
+    transition-duration: 0.5s;
+}
+
+#SNS-link {
+    width: 80%;
+    height: 70px;
+    margin: 100px auto 30px;
+    text-align: center;
+    display: flex;
+    justify-content: space-between;
+}
+
+#SNS-link .link {
+    width: 300px;
+    height: 70px;
+    background-color: #6A3906;
+}
+
+#SNS-link .link a {
+    width: 300px;
+    height: 70px;
+    display: table-cell;
+    text-align: center;
+    vertical-align: middle;
+    font-size: 19px;
+    color: white;
+}
+
+#SNS-link .link:hover {
+    opacity: 0.7;
+}
+
+#share {
+    width: 80%;
+    margin: 40px auto 0;
+    text-align: center;
+}
+
+#share p {
+    font-size: 16px;
+    color: #653700;
+}
+
+#share .ic {
+    width: 60px;
+    height: 60px;
+    margin: 15px 0 15px 0;
+}
+
+#share .ic:hover {
+    opacity: 0.5;
+}
+
+footer {
+    width: 80%;
+    margin: 0 auto;
+    text-align: center;
+}
+
+footer p {
+    color: #848484;
+}
+
+footer .m_logo:hover {
+    opacity: 0.5;
+}    
+
+@media screen and (min-width: 768px) {
+
+    #lets-make {
+        position: relative;
+        margin: 49px auto 0;
+        width: 960px;
+    }
+
+    #lets-make .frozen-time {
+        margin: 0 auto;
+        width: 961px;
+    }
+
+    #lets-make .pic_hour {
+        display: flex;
+        justify-content: space-between;
+        padding-inline-start: 0px;
+    }
+
+    #lets-make .attention {
+        width: 750px;
+        margin: 40px auto 0;
+        padding: 0 0 29px 29px;
+        border: solid 2px #CCCCCC;
+    }
+
+    #arrange-recipe {
+        width: 960px;
+        margin: 99px auto 0;
+        text-align: center;
+    }
+
+    #line-up {
+        width: 960px;
+        margin: 83px auto 0;
+        text-align: center;
+    }
+
+    #line-up .beverages {
+        display: flex;
+        margin-bottom: 71px;
+        justify-content: space-between;
+    }
+
+    #line-up .beverages h3 {
+        color: black;
+    }
+
+    #line-up .beverages p {
+        color: black;
+    }
+
+    #line-up .image {
+        width: 208px;
+        height: 405px;
+    }
+
+    #everyone {
+        width: 960px;
+        margin: 100px auto 0;
+        text-align: center;
+    }
+
+    #SNS-link {
+        width: 960px;
+        height: 70px;
+        margin: 100px auto 30px;
+        text-align: center;
+        display: flex;
+        justify-content: space-between;
+    }
+
+    #share {
+        width: 960px;
+        margin: 40px auto 0;
+        text-align: center;
+    }
+
+    footer {
+        width: 960px;
+        margin: 0 auto;
+        text-align: center;
+    }
+
+}
